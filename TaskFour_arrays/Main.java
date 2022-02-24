@@ -54,7 +54,7 @@ public class Main {
         int temp = 0;    
  
         //print original array    
-       System.out.println("Original array: ");    
+       System.out.println("This is my original array: ");    
        for (int i = 0; i <sorting.length; i++) {     
            System.out.print(sorting[i] + " ");    
         }    
@@ -70,7 +70,7 @@ public class Main {
             }     
         }    
         //print sorted array    
-        System.out.println("\nArray sorted in ascending order: ");    
+        System.out.println("\nThis is my array sorted in ascending order: ");    
         for (int i = 0; i <sorting.length; i++) {     
             System.out.print(sorting[i] + " ");    
         }    
