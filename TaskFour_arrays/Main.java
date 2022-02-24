@@ -55,14 +55,14 @@ public class Main {
  
         //print original array    
        System.out.println("This is my original array: ");    
-       for (int i = 0; i <sorting.length; i++) {     
+       for (int i = 0; i < sorting.length; i++) {     
            System.out.print(sorting[i] + " ");    
         }    
 
         //Sort the array in ascending order using two for loops    
-        for (int i = 0; i <sorting.length; i++) {     
-          for (int j = i+1; j <sorting.length; j++) {     
-              if(sorting[i] >sorting[j]) {      //swap elements if not in order
+        for (int i = 0; i < sorting.length; i++) {     
+          for (int j = i+1; j < sorting.length; j++) {     
+              if(sorting[i] > sorting[j]) {      //swap elements if not in order
                  temp = sorting[i];    
                  sorting[i] = sorting[j];    
                  sorting[j] = temp;    
@@ -71,7 +71,7 @@ public class Main {
         }    
         //print sorted array    
         System.out.println("\nThis is my array sorted in ascending order: ");    
-        for (int i = 0; i <sorting.length; i++) {     
+        for (int i = 0; i < sorting.length; i++) {     
             System.out.print(sorting[i] + " ");    
         }    
     }  
