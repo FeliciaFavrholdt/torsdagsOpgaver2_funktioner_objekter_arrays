@@ -17,19 +17,21 @@
 
 	public static void main(String [] args) {
 
-		String nameStr = "The name is ";
-		String ageStr = "\nThe age is ";
+		String nameStr = "My name is ";
+		String ageStr = "\nMy age is ";
+		String im = "\nI am a ";
+		String team = "\nI study at ";
 
 		//creates object of class student 
-		Student myStudent = new Student("Felicia", 28, true, "DAT"); 
-		Student newStudent = new Student("Martin", 28, false, "DAT"); 
+		Student myStudent = new Student("Felicia", 28, true, "CPH - DAT"); 
+		Student newStudent = new Student("Martin", 28, false, "CPH - DAT"); 
 
 		//creates object of class teacher 
 		Teacher myTeacher = new Teacher("Tess", 40, true); 
 
-		System.out.println(nameStr + myStudent.getName() + ageStr + myStudent.getAge() + "\n" + myStudent.getGender() + "\n" + myStudent.getTeam()); 
-		System.out.println(nameStr + newStudent.getName() + ageStr +  newStudent.getAge() + "\n" +  newStudent.getGender() + "\n" +  newStudent.getTeam());
-		System.out.println(nameStr + myTeacher.getName() + ageStr +  myTeacher.getAge() + "\n" +  myTeacher.getGender());
+		System.out.println(nameStr + myStudent.getName() + ageStr + myStudent.getAge() + im + myStudent.getGender() + team + myStudent.getTeam()); 
+		System.out.println(nameStr + newStudent.getName() + ageStr +  newStudent.getAge() + im +  newStudent.getGender() + team +  newStudent.getTeam());
+		System.out.println(nameStr + myTeacher.getName() + ageStr +  myTeacher.getAge() + im +  myTeacher.getGender());
    }
 }
 
